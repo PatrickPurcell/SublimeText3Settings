@@ -1,8 +1,16 @@
 
+
 {
     "rulers": [80],
     "word_wrap": false,
     "save_on_focus_lost": true,
     "translate_tabs_to_spaces": true,
-    "draw_white_space": "all"
+    "draw_white_space": "all",
+    "folder_exclude_patterns": [".hg", "CVS", ".Trash", ".Trash-*"],
+    "file_exclude_patterns": ["*.pyc", "*.pyo", "*.ncb", "*.idb", ".DS_Store", ".directory", "desktop.ini", "*.class", "*.db", "*.sublime-workspace"],
+    "binary_file_patterns": ["*.exe", "*.dll", "*.obj","*.o", "*.a", "*.lib", "*.so", "*.dylib", "*.jpg", "*.jpeg", "*.png", "*.gif", "*.ttf", "*.tga", "*.dds", "*.ico", "*.eot", "*.sdf", "*.suo", "*.pdb", "*.pdf", "*.psd", "*.swf", "*.jar", "*.zip"],
+    "ignored_packages":
+    [
+        "Vintage",
+    ],
 }
